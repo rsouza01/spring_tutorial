@@ -1,5 +1,5 @@
 <h1 align="center">
-	<br><img src="logo.jpg" alt="logo"><br>
+	<br><img src="logo.png" alt="logo"><br>
 
 	Spring Framework
 </h1>
