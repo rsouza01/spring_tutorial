@@ -13,9 +13,16 @@ public class FonteDadosArquivo implements FonteDados {
     	this.arquivo = pArquivo;
     }
 
-
 	public List<Pessoa> getPessoas()
 	{
 	    return new ArrayList<Pessoa>();
 	}
+	
+	public void init() throws Exception {
+		System.out.println("\n\nFonteDadosArquivo.init()");
+	}	
+
+	public void destroy() throws Exception {
+		System.out.println("\n\nFonteDadosArquivo.destroy()");
+	}	
 }
