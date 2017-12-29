@@ -1,9 +1,11 @@
 package com.rsouza01.common.interfaces;
 
 import com.rsouza01.common.Pessoa;
+import java.util.*;
 
 public interface FonteDados {
 
-    public void setArquivo(string pArquivo);
-	List<Pessoa> getPessoas();
+    public void setArquivo(String pArquivo);
+    
+	public List<Pessoa> getPessoas();
 }

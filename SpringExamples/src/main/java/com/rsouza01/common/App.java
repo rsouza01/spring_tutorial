@@ -5,6 +5,9 @@ package com.rsouza01.common;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+
+import com.rsouza01.common.Processador;
+
 /**
  * Hello world!
  *
