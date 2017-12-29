@@ -1,4 +1,4 @@
-lign="center">
+<h1 align="center">
 	<br><img src="logo.jpg" alt="logo"><br>
 
 	Spring Framework
