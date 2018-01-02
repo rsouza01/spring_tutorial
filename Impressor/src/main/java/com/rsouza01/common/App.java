@@ -9,8 +9,9 @@ public class App
 {
     public static void main( String[] args )
     {
-    	ApplicationContext context = new ClassPathXmlApplicationContext(
-    		"Spring-Module.xml");
+    	ApplicationContext context = new ClassPathXmlApplicationContext(new String[] {
+    		"Spring-Module.xml", 
+    		"Spring-DAO.xml"});
     		
         Processador bean = (Processador)context.getBean("processador", Processador.class);
         bean.processe();
