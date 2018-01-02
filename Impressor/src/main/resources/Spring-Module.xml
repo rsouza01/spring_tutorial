@@ -17,9 +17,4 @@
 		<property name="fonteDados" ref="fonteDados"/>
 	</bean>
 	
-	<bean id="pessoaService" class="com.rsouza01.common.service.PessoaService">
-		<property name="pessoaDAO" ref="pessoaDAO"/>
-	</bean>
-	
-
 </beans>
